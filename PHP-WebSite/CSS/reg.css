@@ -9,7 +9,6 @@
 
 
 
-/* Default styles for larger screens */
 body {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -17,7 +16,6 @@ body {
     font-size: 16px;
 }
 
-/* Styles for tablets and smaller screens */
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -28,7 +26,6 @@ body {
     }
 }
 
-/* Styles for mobile devices */
 @media (max-width: 480px) {
     body {
         font-size: 12px;
@@ -46,18 +43,12 @@ body {
 
 
 
-/*body {*/
-/*    color: white;*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*    font-weight: 400;*/
-/*    font-size: 16px;*/
-/*}*/
 a {
     text-decoration: none;
 }
 img {
     width: 45%;
-    max-width: 100%; /* Responsive images */
+    max-width: 100%; 
     height: auto;
 }
 .wrapper {
@@ -75,6 +66,8 @@ header {
 header .logo {
     font-size: 29px;
     font-weight: 800;
+    color: #e52e2e;
+
 }
 
 header span a:visited{
