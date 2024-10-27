@@ -6,17 +6,10 @@
     padding: 0;
 }
 
-/*body {*/
-/*    color: white;*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*    font-weight: 400;*/
-/*    font-size: 16px;*/
-/*}*/
 
 
 
 
-/* Default styles for larger screens */
 body {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -24,7 +17,6 @@ body {
     font-size: 16px;
 }
 
-/* Styles for tablets and smaller screens */
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -35,7 +27,6 @@ body {
     }
 }
 
-/* Styles for mobile devices */
 @media (max-width: 480px) {
     body {
         font-size: 12px;
@@ -60,7 +51,7 @@ a {
 }
  img {
      width: 45%;
-     max-width: 100%; /* Responsive images */
+     max-width: 100%; 
      height: auto;
  }
  .wrapper {
@@ -164,7 +155,6 @@ header nav ul li.btn a:hover {
     top: 100px;
     right: 0;
 }
-/*Game ratings*/
 .iconic{
     padding-top: 50px;
 }
@@ -192,7 +182,7 @@ header nav ul li.btn a:hover {
 }
 .game {
     text-align: center;
-    color: white; /* Text color */
+    color: white; 
 }
 .game img {
     max-width: 150%;
