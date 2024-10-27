@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password | Login not allowed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="png" href="https://cdn-icons-png.flaticon.com/512/5582/5582931.png">
+
+</head>
+<body>
+
+<div class="body_style">
+    <h1>Password recovery</h1>
+    <div class="form_style">
+        <form>
+            <div class="label_style">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Your name" required >
+            </div>
+            <div class="label_style">
+                <label for="username"></label>
+                <input type="text" name="username" id="username" placeholder="Username"
+                       maxlength="20" minlength="4" required>
+            </div>
+            <div class="label_style">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="eMail" required>
+            </div>
+            <div class="label_style">
+                <label for="phone_number"></label>
+                <input type="number" name="phone_number" id="phone_number" placeholder="Phone Number" required>
+            </div>
+
+            <button type="submit" class="button_style">Restore password</button>
+            <div class="register-link">
+                <a href="index.html">Return to authorization</a>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

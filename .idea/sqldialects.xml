@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/PHP-WebSite/get_locations.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/PHP-WebSite/lib/auth.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/PHP-WebSite/lib/reg.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/PHP-WebSite/reg.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/PHP-WebSite/save_location.php" dialect="MySQL" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="file://$PROJECT_DIR$/PHP-WebSite/save_location.php" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
+  </component>
+</project>
